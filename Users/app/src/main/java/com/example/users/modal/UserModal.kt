@@ -1,0 +1,1 @@
+package com.example.users.modaldata class UserModal(val name:String?=null, val number:String?=null, val email:String?=null, val city:String?=null, val id :String? = null )

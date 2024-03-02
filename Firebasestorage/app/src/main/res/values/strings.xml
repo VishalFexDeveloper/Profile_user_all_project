@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Firebase storage</string>
+    <style name="image_cornel">
+        <item name="cornerRadius">60dp</item>
+    </style>
+</resources>
