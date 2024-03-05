@@ -29,8 +29,6 @@ class HomeActivity : AppCompatActivity() {
             finish()
         }
 
-
-
     }
 
     private fun getUserList() {
