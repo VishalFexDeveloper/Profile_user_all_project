@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_center"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/profile_shape_top"
+            android:layout_height="150dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#63B16AEF"
+            android:rotation="-8"
+            android:layout_marginStart="-40dp"
+            android:layout_marginEnd="-50dp"
+            android:layout_marginTop="200dp"
+            android:layout_height="150dp"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_img_bkd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="7dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="150dp"
+            >
+            <ImageView
+                android:id="@+id/profile_Img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/img_gril"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:layout_height="254dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/profile_addImg"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            app:cardCornerRadius="34dp"
+            android:layout_marginStart="110dp"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:background="@color/white"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_add_24"
+                app:tint="@color/begni" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+    profileBio<EditText
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/profile_edit_bkd"
+        android:layout_marginHorizontal="20dp"
+        android:singleLine="true"
+        android:hint="enter name..."
+        android:textColorHint="@color/redDark"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/redDark"
+        android:inputType="text"
+        android:layout_height="55dp"/>
+
+    <EditText
+        android:id="@+id/profile_bio"
+        android:layout_below="@id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/profile_edit_bkd"
+        android:layout_marginHorizontal="20dp"
+        android:singleLine="true"
+        android:hint="enter bio..."
+        android:textColorHint="@color/redDark"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/redDark"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:layout_height="55dp"/>
+    <EditText
+        android:id="@+id/profile_country"
+        android:layout_below="@id/profile_bio"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/profile_edit_bkd"
+        android:layout_marginHorizontal="20dp"
+        android:singleLine="true"
+        android:hint="enter country name"
+        android:textColorHint="@color/redDark"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/redDark"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:layout_height="55dp"/>
+
+
+    <Button
+        android:id="@+id/profileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/redDark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="CONTINUE"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>

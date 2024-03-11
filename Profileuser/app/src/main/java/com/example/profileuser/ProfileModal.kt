@@ -1,0 +1,1 @@
+package com.example.profileuserdata class ProfileModal(var first:String?= null,val lastName :String?= null,val bio:String?= null,val countryName:String?= null,val id:String?= null,val childName:String?=null,val childNameVideo:String?=null)

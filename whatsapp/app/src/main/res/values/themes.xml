@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Whatsapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/redDark</item>
+        <item name="statusBarBackground">@color/redDark</item>
+        <item name="android:navigationBarColor">@color/begni</item>
+    </style>
+
+    <style name="profileTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/redDark</item>
+        <item name="statusBarBackground">@color/redDark</item>
+        <item name="android:navigationBarColor">@color/begni</item>
+    </style>
+
+    <style name="HomePage" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/redDark</item>
+        <item name="statusBarBackground">@color/redDark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="statusBarBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Whatsapp" parent="Base.Theme.Whatsapp" />
+</resources>

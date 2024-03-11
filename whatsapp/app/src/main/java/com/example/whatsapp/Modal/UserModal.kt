@@ -1,0 +1,1 @@
+package com.example.whatsapp.Modaldata class UserModal(val uid:String?=null,val name:String?=null,val bio:String?=null,val country:String?=null,val phone:String?=null,val imageUri:String?=null,val childName:String?=null)

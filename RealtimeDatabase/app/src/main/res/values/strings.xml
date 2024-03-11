@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chat Bot</string>
+    <string name="type_your_message">Type your message...</string>
+
+    <style name="corner50">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Assistant_Activity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/frame_text"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/frame_img"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ContinueBtn"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Continue"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue"
+        android:textStyle="bold"
+        app:icon="@drawable/arrow_forward"
+        app:iconGravity="end"
+        app:iconSize="25sp"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

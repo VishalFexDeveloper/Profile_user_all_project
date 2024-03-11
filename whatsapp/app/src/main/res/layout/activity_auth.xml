@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AuthActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img2"/>
+
+    <TextView
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify your phone number"
+        android:textSize="20sp"
+        android:textColor="@color/redDark"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/secondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="we will send OTP on your number to verify"
+        android:textSize="16sp"
+       android:layout_below="@id/verify"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textColor="#8B8686"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_bkd"
+        android:layout_below="@id/secondText"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:paddingStart="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/redDark"
+            android:text="+91"/>
+
+        <EditText
+            android:id="@+id/enterNumber"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:hint="Type your phone number"
+            android:paddingEnd="12dp"
+            android:inputType="number"
+            android:textColor="@color/redDark"
+            android:background="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/sendPhoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="CONTINUE"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/redDark"/>
+
+</RelativeLayout>

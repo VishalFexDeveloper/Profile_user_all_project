@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpDateActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+       android:layout_margin="30dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/upDateImageBtn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:shapeAppearance="@style/image_corner"
+            android:src="@drawable/profile_icon"
+            android:scaleType="centerCrop"
+            android:shadowColor="#898989"
+            android:elevation="20dp"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/updateVideo"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="update Video"
+            app:icon="@drawable/icons_upload"
+            app:iconSize="25dp"
+            android:backgroundTint="#898989"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/upDateFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="8dp"
+        android:singleLine="true"
+        android:shadowColor="#898989"
+        android:background="@drawable/edit_bkd"
+        android:elevation="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="text"
+        android:hint="Fist name"/>
+
+
+    <EditText
+        android:id="@+id/upDatelastName"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/edit_bkd"
+        android:shadowColor="#898989"
+        android:elevation="15dp"
+        android:paddingHorizontal="8dp"
+        android:singleLine="true"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="text"
+        android:hint="Last name"
+        tools:ignore="TextFields" />
+
+
+    <EditText
+        android:id="@+id/upDatecountryName"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/edit_bkd"
+        android:shadowColor="#898989"
+        android:elevation="15dp"
+        android:layout_marginTop="25dp"
+        android:paddingHorizontal="8dp"
+        android:singleLine="true"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="text"
+        android:hint="country name"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/upDateBio"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/edit_bkd"
+        android:layout_marginTop="22dp"
+        android:shadowColor="#898989"
+        android:elevation="15dp"
+        android:paddingHorizontal="8dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:hint="Bio..."
+        tools:ignore="TextFields" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/upDateAccBtn"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="70sp"
+        android:layout_marginBottom="20sp"
+        android:text="UPDATE ACCOUNT"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:backgroundTint="#898989"
+        android:layout_marginHorizontal="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Profile user</string>
+    <string name="video_upload">VIDEO UPLOAD</string>
+
+    <style name="image_corner">
+        <item name="cornerSize">
+            50%
+        </item>
+    </style>
+</resources>

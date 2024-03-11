@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".VerifyActivity">
+
+    <ImageView
+        android:id="@+id/verify_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/password"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify number"
+        android:textColor="@color/redDark"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/verify_img"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/verify_sec"
+        android:layout_height="wrap_content"
+        android:text="Enter the OTP code verify your phone number."
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:textColor="#8B8686"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"/>
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verify_sec"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="70dp"
+        android:background="@drawable/edit_bkd"
+        android:layout_marginTop="40dp"
+        >
+
+        <EditText
+            android:id="@+id/verify_edit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:gravity="center"
+            android:hint="Type your otp"
+            android:paddingEnd="12dp"
+            android:inputType="number"
+            android:textColor="@color/redDark"
+            android:background="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/verify_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/redDark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="CONTINUE"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+</RelativeLayout>

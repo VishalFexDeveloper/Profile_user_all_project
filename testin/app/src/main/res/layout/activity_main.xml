@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="25dp"
+        android:hint="number"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send OTP"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/veryPass"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="25dp"
+        android:hint="enter otp"
+        android:layout_marginTop="40dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/veryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="veryfyCode"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
