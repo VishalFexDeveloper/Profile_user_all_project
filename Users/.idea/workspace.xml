@@ -32,12 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b045fc-e2fd-40c7-994c-5078b42a8659" name="Changes" comment="firestore database">
-      <change afterPath="$PROJECT_DIR$/../Profileuser/app/src/main/java/com/example/profileuser/ProfileAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/users/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/users/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/users/UserAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/users/UserAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealtimeDatabase/app/src/main/res/drawable/arrow_forward.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Entertainment" beforeDir="false" afterPath="$PROJECT_DIR$/../Entertainment" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +68,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2d5pzajST8WThf7tohVSC96jY4x" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />

@@ -7,16 +7,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.widget.Toolbar
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import androidx.viewpager2.widget.ViewPager2
 import com.example.entertainment.Adapter.ViedeoViewPager2Adapter
 import com.example.entertainment.R
-import com.example.entertainment.VideoFragmentChild.VideosFolderFragment
-import com.example.entertainment.VideoFragmentChild.VideosListFragment
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -54,7 +47,6 @@ class VideoFragmentParent : Fragment() {
                     tab.text = "Folders"
 
                 }
-
             }
         }.attach()
 
